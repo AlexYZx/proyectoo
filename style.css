@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.6;
+  background: #f9f9f9; /* fondo claro */
+  color: #000000;       /* letras negrass */
+}
+
+.cabecera {
+  background-color: #e75480; /* rosa más intenso */
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+header p {
+    color: black; /* solo los párrafos dentro del header */
+}
+
+
+.boton {
+    padding: 0.75rem 1.5rem; /* espacio interno del botón: 0.75rem arriba/abajo y 1.5rem izquierda/derecha */
+    font-size: 1.2rem;         /* tamaño de la letra dentro del botón */
+    background-color: #e75480; /* color de fondo del botón (rosa intenso) */
+    color: #fff;             /* color del texto dentro del botón (blanco) */
+    border: 3px solid #000000; /* borde negro de 1px */
+    border-radius: 0.5rem;   /* redondea las esquinas del botón */
+    cursor: pointer;         /* cambia el cursor al pasar sobre el botón para indicar que se puede hacer clic */
+    width: 250px;             /* ancho fijo del botón, así todos los botones con este estilo tendrán el mismo tamaño */
+
+}
+
+.botones {
+    display: flex;           /* organiza los botones en fila */
+    justify-content: space-between; /* uno a la izquierda y otro a la derecha */
+    width: 50%; /* el ancho del contenedor */
+    margin: 1rem auto; /* centrado horizontal */
+}
+
+
+.SN {
+  background-color:#e75480;
+  text-align: center;
+  padding: 1rem;
+}
+
